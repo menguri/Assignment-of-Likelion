@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-2</title>
+    <style>
+        ul {
+            float:left;
+
+        }
+        .label {
+            color: green;
+            font-weight: bold;
+            text-align: right;
+            margin-right: 10px;
+        }
+        li {
+            list-style: none;
+            margin: 15px 0
+        }
+    </style>
+</head>
+<body>
+    <h1>멋사 수강 신청</h1>
+    <fieldset>
+        <legend>수강 신청인</legend>
+        <ul>
+            <li><label class="label">대학교</label><input type="text" name="" value="" autofocus></li>
+            <li><label class="label">이름</label><input type="text" name="" value=""></li>
+            <li>
+                <label class="label">학과</label>
+                <select name="학과">
+                    <optgroup label="공과대학">
+                    <option value="건공">건공</option>
+                    <option value="기공">기공</option>
+                    <option value="산공">산공</option>
+                    <option value="컴공">컴공</option>
+                    </optgroup>
+                    <optgroup label="인문대학">
+                    <option value="사학">사학</option>
+                    <option value="어문">어문</option>
+                    <option value="철학">철학</option>
+                    </optgroup>
+                </select>
+            </li>
+        </ul>
+    </fieldset>
+</body>
+</html>
+
+
+// text-align이 적용이 잘...
