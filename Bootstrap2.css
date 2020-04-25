@@ -1,0 +1,31 @@
+.h {
+    padding-left: 10px;
+}
+.boxx {
+    margin: 20px; 
+    border: black 3px solid
+}
+@media (max-width: 360px){
+    .boxx {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (min-width: 361px) and (max-width: 600px){
+    .boxx {
+        width: 300px;
+        height: 250px;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px){
+    .boxx {
+        width: 500px;
+        height: 300px;
+    }
+}
+@media (min-width: 801px){
+    .boxx {
+        width: 700px;
+        height: 350px;
+    }
+}
